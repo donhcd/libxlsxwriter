@@ -45,7 +45,7 @@ LIBXLSXWRITER_SO = libxlsxwriter.so
 LIBXLSXWRITER_TO = libxlsxwriter_test.a
 
 # Flags passed to static linker.
-ARFLAGS = rc
+ARFLAGS = rc -fPIC
 
 # Flags passed to dynamic linker.
 FPIC = -fPIC
